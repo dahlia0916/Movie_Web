@@ -1,0 +1,7 @@
+#main{
+    background-image: url("./image/main_background.png");
+    background-color: grey;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+}
