@@ -1,0 +1,102 @@
+.chair {
+  position: absolute;
+  width: 1342px;
+  height: 75px;
+  left: 50px;
+  top: 912px;
+
+  background: #545454;
+}
+.title {
+  position: absolute;
+  width: 124px;
+  height: 43px;
+  left: 656px;
+  top: 123px;
+
+  font-family: "Noto Serif KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.text {
+  position: absolute;
+  width: 379px;
+  height: 176px;
+  left: 532px;
+  top: 274px;
+  font-family: "Noto Serif KR";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+.screen {
+  position: absolute;
+  width: 1342px;
+  height: 670px;
+  left: 50px;
+  top: 39px;
+
+  background: #242424;
+}
+.f_c {
+  position: absolute;
+  width: 226px;
+  height: 112px;
+  left: 50px;
+  top: 875px;
+  background: #545454;
+  border-radius: 20px;
+}
+
+.s_c {
+  position: absolute;
+  width: 226px;
+  height: 112px;
+  left: 329px;
+  top: 875px;
+  background: #545454;
+  border-radius: 20px;
+}
+.t_c {
+  position: absolute;
+  width: 226px;
+  height: 112px;
+  left: 608px;
+  top: 875px;
+
+  background: #545454;
+  border-radius: 20px;
+}
+.fo_c {
+  position: absolute;
+  width: 226px;
+  height: 112px;
+  left: 887px;
+  top: 875px;
+
+  background: #545454;
+  border-radius: 20px;
+}
+.l_c {
+  position: absolute;
+  width: 226px;
+  height: 112px;
+  left: 1166px;
+  top: 875px;
+
+  background: #545454;
+  border-radius: 20px;
+}
