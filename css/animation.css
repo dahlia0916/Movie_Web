@@ -1,0 +1,29 @@
+ @keyframes fadeIn{
+    from { margin-left: 0; }
+    to { margin-left: 1; }
+ }
+
+ @keyframes fadeOut{
+    from { margin-left:1; }
+    to { margin-left: 0 ; }
+ }
+
+ @-webkit-keyframes fadeIn{
+    from { margin-left: 0; }
+    to { margin-left: 1; }
+ }
+
+ @-webkit-keyframes fadeOut{
+    from { margin-left:1; }
+    to { margin-left: 0 ; }
+ }
+
+ .fadeIn{
+   animation: fadein;
+   animation-duration: 0.5s;
+ }
+
+ .fadeOut{
+   animation: fadeOut;
+   animation-duration: 0.5s;
+ }
