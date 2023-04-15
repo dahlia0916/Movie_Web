@@ -4,7 +4,7 @@ const qna = document.querySelector("#qna");
 function addAnswer(answerText){
     var a = document.querySelector('.answerBox');
     var answer = document.createElement('button');
-    answer.classList.add('answerList');
+    // answer.classList.add('answerList');
     a.appendChild(answer);
     answer.innerHTML = answerText;
     answer.aaddEventListener("click", function(){
