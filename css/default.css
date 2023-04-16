@@ -1,5 +1,7 @@
 body {
     background-color:grey;
+    margin: 100;
+    justify-content: center;
 }
 
 *{
