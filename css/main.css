@@ -1,5 +1,11 @@
 #main{
-    background-image: url("./image/main_background.png");
-    background-color: grey;
+    background-color: rgba(0, 0, 0, 0.93);
+    width: 90%;
     text-align: center;
+    border-radius: 20px;
+}
+
+h3{
+    color: whitesmoke;
+    font-size: 27px;
 }
