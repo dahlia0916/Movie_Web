@@ -52,8 +52,8 @@ for genre in genre_list:
             image_res = requests.get(image_url)
             image_res.raise_for_status()
 
-            #with open("movie_{}_{}.jpg".format(genre_name, idx+1), "wb") as f:
-            #    f.write(image_res.content)
+            with open("movie_{}_{}.jpg".format(genre_name, idx+1), "wb") as f:
+                f.write(image_res.content)
 
             if idx >= 2: # 상위 3개만 다운
                 break
