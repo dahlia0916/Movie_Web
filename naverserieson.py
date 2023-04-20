@@ -1,4 +1,5 @@
 import time
+import requests
 from selenium import webdriver
 from bs4 import BeautifulSoup
 
@@ -41,12 +42,29 @@ for genre in genre_list:
         soup = BeautifulSoup(html, "html.parser")
 
         # 영화 리스트 가져오기
-        movie_list = soup.find_all("span", {"class": "Title_title__s9o0D"})
+        movie_list = soup.find_all("span", {"class" : "Title_title__s9o0D"})
+        movie_poster = soup.find_all("img", {"class":"Thumbnail_image__TxHd0"})
+    
+        for idx, image in enumerate(movie_poster):
+            image_url = image["src"]
+            print(image_url)
+
+            image_res = requests.get(image_url)
+            image_res.raise_for_status()
+
+            #with open("movie_{}_{}.jpg".format(genre_name, idx+1), "wb") as f:
+            #    f.write(image_res.content)
+
+            if idx >= 2: # 상위 3개만 다운
+                break
 
         if movie_list:
-            for movie in movie_list:
+            for i, movie in enumerate(movie_list):
+                if i == 5:
+                    break
                 title = movie.text.strip()
                 print("- " + title)
+
         else:
             print("영화 리스트가 없습니다.")
 

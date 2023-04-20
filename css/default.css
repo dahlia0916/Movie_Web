@@ -1,11 +1,9 @@
 body {
-    background-color: grey; 
+    background-color:grey;
     margin: 100;
     justify-content: center;
 }
 
-
-/* 모든것 */
 *{
     font-family: 'Gowun Batang', serif;
 }
