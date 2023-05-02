@@ -25,7 +25,7 @@ const qnaList = [
         ]
     },
     {
-        q: '2. 꿈에서 작은 토끼가 구슬을 건네며 당신에게 "이걸 먹으면 다른 차원의 문을 열 수 있어! 그곳에선 꿈도 현실이 되는 곳이야!"라고 말했다 당신은...',
+        q: '2. 꿈에서 작은 토끼가 구슬을 건네며 당신에게 <br>"이걸 먹으면 다른 차원의 문을 열 수 있어! 그곳에선 꿈도 현실이 되는 곳이야!"<br>라고 말했다. 당신은...',
         a: [
             {answer: 'a. 아... 꿈이네', type: ['ISTJ','ISTP','ISFJ','ISFP','ESTJ','ESFP','ESFJ','ESTP']},
             {answer: 'b. 이걸 먹으면 다른 차원의 문이 열린다고? 어떤 곳이지? 너무 궁금한데? 근데 이 구슬 먹을 수 있긴 한 거야?', type: ['INFJ','INTJ','INFP','INTP','ENFP','ENTP','ENFJ','ENTJ']}
@@ -35,13 +35,13 @@ const qnaList = [
         q: '3. 오랜만에 혼자 보내는 주말! 오늘은 TV로 어떤 영화를 볼까?',
         a: [
             {answer: 'a. 평화롭고 잔잔한 추억 떠오르는 감성적인 영화', type: ['INFJ','ISFJ','ISFP','INFP','ESFP','ENFP','ESFJ','ENFJ']},
-            {answer: 'b. 정의롭고 논리적이라 잘 나가는 변호사의 일상을 다룬 영화', type: ['ISTJ','ISTP','INTJ','INTP','ESTJ','ENTP','ESTP','ENTJ']}
+            {answer: 'b. 정의롭고 논리적인 잘 나가는 변호사의 일상을 다룬 영화', type: ['ISTJ','ISTP','INTJ','INTP','ESTJ','ENTP','ESTP','ENTJ']}
         ]
     },
     {
         q: '4. 추리 영화를 보며 누가 범인일까 고민중이다. 범인은 바로 너야! 범인의 정체가 드러났다. 당신의 반응은?',
         a: [
-            {answer: 'a.역시 나의 추리 실력은 빗나가지 않지.', type: ['ISTJ','INFJ','INTJ','ISFJ','ESTJ','ESFJ','ENFJ','ENTJ']},
+            {answer: 'a. 역시 나의 추리 실력은 빗나가지 않지.', type: ['ISTJ','INFJ','INTJ','ISFJ','ESTJ','ESFJ','ENFJ','ENTJ']},
             {answer: 'b. 저 사람이 범인이라고? 반전이 있을 줄 알았는데...', type: ['ISTP','ISFP','INFP','INTP','ESFP','ENFP','ENTP','ESTP']}
         ]
     },
@@ -53,10 +53,10 @@ const qnaList = [
         ]       
     },
     {
-        q: '6. 연인이 당신에게 편지를 건넸다! 사귀고 처음 받는 연애 편지(두근 두근) 어떤 내용이 있었으면 좋겠는가..?',
+        q: '6. 연인이 당신에게 편지를 건넸다! 사귀고 처음 받는 연애 편지(두근두근) 어떤 내용이 있었으면 좋겠는가..?',
         a: [
-            {answer: 'a. 지금 느끼는 감정과 가감없는 직관적인 표현으로 적은 편지', type: ['ISTJ','ISTP','ISFJ','ISFP','ESTJ','ESFP','ESFJ','ESTP']},
-            {answer: 'b. 미래의 우리의 무습을 그리며 비유적인 표현으로 사랑을 품어낸 편지', type: ['INFJ','INTJ','INFP','INTP','ENFP','ENTP','ENFJ','ENTJ']}
+            {answer: 'a. 지금 느끼는 감정과 과감하게 직관적인 표현으로 적은 편지', type: ['ISTJ','ISTP','ISFJ','ISFP','ESTJ','ESFP','ESFJ','ESTP']},
+            {answer: 'b. 미래의 우리 모습을 그리며 비유적인 표현으로 적은 편지', type: ['INFJ','INTJ','INFP','INTP','ENFP','ENTP','ENFJ','ENTJ']}
         ]
     },
     {
@@ -67,7 +67,7 @@ const qnaList = [
         ]
     },
     {
-        q: '8. 신호를 기다리던 당신의 눈 앞에 산신령이 나타났다! "홀홀홀! 정직한 모범 시민이구나. 그래, 내가 초능력을 하나 주마. 무엇을 원하느냐?"라고 묻는다면 당신은...',
+        q: '8. 신호를 기다리던 당신의 눈 앞에 산신령이 나타났다! <br>"홀홀홀! 정직한 모범 시민이구나. 그래, 내가 초능력을 하나 주마. 무엇을 원하느냐?"<br>라고 묻는다면 당신은...',
         a: [
             {answer: 'a. 초능력이요? 어떤게 가능한데요? 미래로도 갈 수 있나요?', type: ['INFJ','INTJ','INFP','INTP','ENFP','ENTP','ENFJ','ENTJ']},
             {answer: 'b. 뭐야... 사이빈가..?', type: ['ISTJ','ISTP','ISFJ','ISFP','ESTJ','ESFP','ESFJ','ESTP']}
