@@ -53,20 +53,38 @@ function calResult(){
 
   function setResult(){
     let point = calResult();
-    const resultName = document.querySelector('.resultname');
-    resultName.innerHTML = infoList[point].name;
-    console.log(resultName);
-    var resultImg = document.createElement('img');
-    const imgDiv = document.querySelector('#resultImg');
-    var imgURL = 'img/image ' + point + '.png';
-    resultImg.src = imgURL;
-    resultImg.alt = point;
-    resultImg.classList.add('img-fluid');
-    imgDiv.appendChild(resultImg);
+    // const resultName = document.querySelector('.resultname');
+    // resultName.innerHTML = infoList[point].name;
+    // console.log(resultName);
+
+    var resultImg1 = document.createElement('img');
+    var resultImg2 = document.createElement('img');
+    var resultImg3 = document.createElement('img');
+    const imgDiv1 = document.querySelector('#resultImg1');
+    const imgDiv2 = document.querySelector('#resultImg2');
+    const imgDiv3 = document.querySelector('#resultImg3');
+    var imgURL1 = infoList[point].img1;
+    var imgURL2 = infoList[point].img2;
+    var imgURL3 = infoList[point].img3;
+    resultImg1.src = imgURL1;
+    resultImg2.src = imgURL2;
+    resultImg3.src = imgURL3;
+    resultImg1.alt = point;
+    resultImg2.alt = point;
+    resultImg3.alt = point;
+    resultImg1.classList.add('img-fluid');
+    resultImg2.classList.add('img-fluid');
+    resultImg3.classList.add('img-fluid');
+    imgDiv1.appendChild(resultImg1);
+    imgDiv2.appendChild(resultImg2);
+    imgDiv3.appendChild(resultImg3);
+    console.log(resultImg1);
+    console.log(resultImg2);
+    console.log(resultImg3);
   
-    const resultDesc = document.querySelector('.resultDesc');
-    resultDesc.innerHTML = infoList[point].desc;
-    console.log(resultDesc);
+    // const resultDesc = document.querySelector('.resultDesc');
+    // resultDesc.innerHTML = infoList[point].desc;
+    // console.log(resultDesc);
   }
 
 function goResult(){
