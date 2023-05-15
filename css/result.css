@@ -30,3 +30,34 @@
     font-size: 24px;
     color: white;
 }
+
+#resultImgText {
+    display: flex;
+    /* gap: 20px; */
+    justify-content: center;
+}
+
+#resultImg1 {
+    flex: 0 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    margin-right: 10px;
+    /* transform: translate(-50%, -50%); */
+}
+#resultImg2 {
+    flex: 0 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: 10px;
+    /* transform: translate(-50%, -50%); */
+}
+#resultImg3 {
+    flex: 0 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-right: 10px;
+    /* transform: translate(-50%, -50%); */
+}
