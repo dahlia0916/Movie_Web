@@ -4,6 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="노은솔_이수빈_이예나">
+    <meta name="keywords:" content="Movie MBTI Recommendation">
+    <meta name="description:" content="Movie MBTI Recommendation">
+
+    <!-- sns share -->
+    <meta property="og:url" content="https://moviembtirecommend.netlify.app" />
+    <meta property="og:title" content="Movie MBTI Recommendation" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img/result.png" />
+    <meta property="og:description" content="Movie MBTI Recommendation" />
+
+    <!-- faviction -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon.ico" />
     
     <title>movie website</title>
    
@@ -14,6 +28,7 @@
     <link rel="stylesheet" href="./css/animation.css">
     <link rel="stylesheet" href="./css/result.css">
 
+    <!-- google font -->
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet"> -->
@@ -29,6 +44,12 @@
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cute+Font&display=swap" rel="stylesheet"> -->
+
+    <script src="https://t1.kakaocdn.net/kakao_js_sdk/${VERSION}/kakao.min.js" integrity="${INTEGRITY_VALUE}" crossorigin="anonymous"></script>
+    <script>
+        Kakao.init('fae40eaf479cf5bdf827418969f5d1e5');
+        Kakao.isInitialized();
+    </script>
 
 </head>
 <body>
@@ -61,10 +82,12 @@
                 <div class="resultDesc"></div>
                 <div class="imgText">THE END</div>
             </div>
-            <button type="button">공유하기</button>
+            <!-- <button type="button" class="kakao mt-3 px-3 py-2" onclick="js:setShare()">공유하기</button> -->
+            <a href="https://moviembtirecommend.netlify.app/" target="_blank" rel="noopener noreferrer" class="share-button">공유하기</a>
         </section>
         <script src="./js/data.js" charset="utf-8"></script>
         <script src="./js/start.js" charset="utf-8"></script>
+        <!-- <script src="./js/share.js" charset="utf-8"></script> -->
     </div>
 </body>
 </html>

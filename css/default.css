@@ -10,3 +10,21 @@ body {
     font-family: 'Song Myung', serif;
     /* font-family: 'Cute Font', cursive; */
 }
+
+.share-button {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: yellow;
+    color: black; 
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* 마우스를 버튼 위로 가져갈 때 */
+.share-button:hover {
+    background-color: orange;
+}

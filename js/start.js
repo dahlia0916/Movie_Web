@@ -56,13 +56,13 @@ function calResult(){
     const resultName = document.querySelector('.resultname');
     resultName.innerHTML = infoList[point].name;
     console.log(resultName);
-    // var resultImg = document.createElement('img');
-    // const imgDiv = document.querySelector('#resultImg');
-    // var imgURL = 'img/image-' + point + '.png';
-    // resultImg.src = imgURL;
-    // resultImg.alt = point;
-    // resultImg.classList.add('img-fluid');
-    // imgDiv.appendChild(resultImg);
+    var resultImg = document.createElement('img');
+    const imgDiv = document.querySelector('#resultImg');
+    var imgURL = 'img/image ' + point + '.png';
+    resultImg.src = imgURL;
+    resultImg.alt = point;
+    resultImg.classList.add('img-fluid');
+    imgDiv.appendChild(resultImg);
   
     const resultDesc = document.querySelector('.resultDesc');
     resultDesc.innerHTML = infoList[point].desc;
