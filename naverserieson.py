@@ -26,29 +26,34 @@ genre_list = soup.find("ul", {"class" : "CategoryFinderContent_rowList__FMqA2"})
 for genre in genre_list:
     # 장르명 가져오기
     genre_name = genre.text.strip()
+
     # 폴더명으로 사용 불가한 문자 "/" 제거
     if genre_name == "공포/스릴러":
         genre_name = "공포스릴러"
     elif genre_name == "SF/판타지":
         genre_name = "SF판타지"
 
-
-    # 전체를 제외한 나머지 장르의 경우 해당 장르 페이지로 이동하여 영화 리스트 출력
-    if genre_name != "전체" and genre_name != "공연실황": 
+    # 전체와 공연실황을 제외한 나머지 장르의 경우 해당 장르 페이지로 이동하여 영화 리스트 출력
+    if genre_name != "전체" and genre_name != "공연실황":
         print(genre_name)
-        # 해당 장르 페이지로 이동 -> 분류: 인기 페이지
+        # 해당 장르 페이지로 이동 - 분류: 인기 페이지
         genre_url = "https://serieson.naver.com" + genre.find("a")['href'] + "?sortType=POPULARITY_DESC&price=all"
         print(genre_url)
         driver.get(genre_url)
-
         time.sleep(3)
 
+        # 페이지 소스 가져오기
+        html = driver.page_source
+
+        # BeautifulSoup을 이용해 HTML 파싱
+        soup = BeautifulSoup(html, "html.parser")
+
         # 영화 리스트 가져오기
-        movie_list = soup.find_all("span", {"class" : "Title_title__s9o0D"})
+        movie_list = soup.find_all("span", {"class": "Title_title__s9o0D"})
 
         # 영화 포스터 가져오기
         movie_poster = soup.find_all("img", {"class":"Thumbnail_image__TxHd0"})
-    
+
         for idx, image in enumerate(movie_poster):
             # 각 장르별 폴더 생성
             if not os.path.exists(genre_name):
