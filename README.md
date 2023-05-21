@@ -6,7 +6,7 @@ figma로 만든 웹페이지 구상: https://www.figma.com/file/7eVQ65e1Akx67HIG
 
 crawling 기반 웹사이트: https://serieson.naver.com/v3/movie
 
-*주의*
+* 주의 *
 
 naverserieson.py run 해주어야 영화 새로고침 됩니다!
 
