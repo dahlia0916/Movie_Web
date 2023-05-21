@@ -33,33 +33,35 @@
 
 #resultImgText {
     display: flex;
-    /* gap: 20px; */
     justify-content: center;
 }
 
 #resultImg1 {
-    flex: 0 0 auto;
+    /* flex: 1; */
     position: absolute;
-    top: 50%;
-    left: 0%;
-    margin-right: 10px;
-    /* transform: translate(-50%, -50%); */
+    top: 30%;
+    left: 21%;
+    /* width: 200px; */
 }
 #resultImg2 {
-    flex: 0 0 auto;
+    /* flex: 1; */
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: 10px;
-    /* transform: translate(-50%, -50%); */
+    top: 30%;
+    left: 43%;
+    /* width: 200px; */
 }
 #resultImg3 {
-    flex: 0 0 auto;
+    /* flex: 1; */
     position: absolute;
-    top: 50%;
-    left: 100%;
-    margin-right: 10px;
-    /* transform: translate(-50%, -50%); */
+    top: 30%;
+    left: 65%;
+    /* width: 200px; */
+}
+
+@media screen and (max-width: 768px) {
+    #resultImg1, #resultImg2, #resultImg3 {
+        width: 150px;
+    }
 }
 
 /* .kakao{
