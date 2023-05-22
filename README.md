@@ -6,6 +6,8 @@ figma로 만든 웹페이지 구상: https://www.figma.com/file/7eVQ65e1Akx67HIG
 
 crawling 기반 웹사이트: https://serieson.naver.com/v3/movie
 
+참고자료: 판다코딩_나만의 MBTI 사이트 만들기 (https://www.youtube.com/watch?v=PZgmClpRwcE&list=PLgqG2uj21HgmvkxcxKD0aYvF8zs0LGAES)
+
 !!주의!!
 
 naverserieson.py run 해주어야 영화 새로고침 됩니다!
