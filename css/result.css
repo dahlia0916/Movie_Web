@@ -11,7 +11,11 @@
 }
 
 .resultDesc{
-    font-size: 20px;
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
     color: white;
 }
 
@@ -41,21 +45,18 @@
     position: absolute;
     top: 30%;
     left: 21%;
-    /* width: 200px; */
 }
 #resultImg2 {
     /* flex: 1; */
     position: absolute;
     top: 30%;
     left: 43%;
-    /* width: 200px; */
 }
 #resultImg3 {
     /* flex: 1; */
     position: absolute;
     top: 30%;
     left: 65%;
-    /* width: 200px; */
 }
 
 @media screen and (max-width: 768px) {

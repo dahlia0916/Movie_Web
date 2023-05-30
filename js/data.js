@@ -108,112 +108,112 @@ const qnaList = [
 const infoList = [
     {
         name:'ISTJ',
-        desc:'다큐멘터리',
+        desc:'#다큐멘터리',
         img1: '다큐멘터리/movie_다큐멘터리_1.jpg',
         img2: '다큐멘터리/movie_다큐멘터리_2.jpg',
         img3: '다큐멘터리/movie_다큐멘터리_3.jpg'
     },
     {
         name:'ISTP',
-        desc:'공포스릴러 / 다큐멘터리',
+        desc:'#공포/스릴러    #다큐멘터리',
         img1: '공포스릴러/movie_공포스릴러_1.jpg',
         img2: '다큐멘터리/movie_다큐멘터리_1.jpg',
         img3: '공포스릴러/movie_공포스릴러_2.jpg'
     },
     {
         name:'ISFJ',
-        desc:'멜로',
+        desc:'#멜로',
         img1: '멜로/movie_멜로_1.jpg',
         img2: '멜로/movie_멜로_2.jpg',
         img3: '멜로/movie_멜로_3.jpg'
     },
     {
         name:'ISFP',
-        desc:'드라마 / 멜로',
+        desc:'#드라마    #멜로',
         img1: '멜로/movie_멜로_1.jpg',
         img2: '멜로/movie_멜로_2.jpg',
         img3: '드라마/movie_드라마_1.jpg'
     },
     {
         name:'INTJ',
-        desc:'SF판타지 / 드라마',
+        desc:'#SF/판타지    #드라마',
         img1: 'SF판타지/movie_SF판타지_1.jpg',
         img2: '드라마/movie_드라마_1.jpg',
         img3: 'SF판타지/movie_SF판타지_2.jpg'
     },
     {
         name:'INTP',
-        desc:'애니메이션 / SF판타지',
+        desc:'#애니메이션    #SF/판타지',
         img1: '애니메이션/movie_애니메이션_1.jpg',
         img2: 'SF판타지/movie_SF판타지_1.jpg',
         img3: 'SF판타지/movie_SF판타지_2.jpg'
     },
     {
         name:'INFJ',
-        desc:'공포스릴러 / SF판타지',
+        desc:'#공포/스릴러    #SF/판타지',
         img1: 'SF판타지/movie_SF판타지_1.jpg',
         img2: 'SF판타지/movie_SF판타지_2.jpg',
         img3: '공포스릴러/movie_공포스릴러_1.jpg'
     },
     {
         name:'INFP',
-        desc:'멜로 / 코미디 / 애니메이션',
+        desc:'#멜로    #코미디    #애니메이션',
         img1: '멜로/movie_멜로_1.jpg',
         img2: '코미디/movie_코미디_1.jpg',
         img3: '애니메이션/movie_애니메이션_1.jpg'
     },
     {
         name:'ESTJ',
-        desc:'액션',
+        desc:'#액션',
         img1: '액션/movie_액션_1.jpg',
         img2: '액션/movie_액션_2.jpg',
         img3: '액션/movie_액션_3.jpg'
     },
     {
         name:'ESTP',
-        desc:'드라마 / 액션',
+        desc:'#드라마    #액션',
         img1: '드라마/movie_드라마_1.jpg',
         img2: '액션/movie_액션_1.jpg',
         img3: '액션/movie_액션_2.jpg'
     },
     {
         name:'ESFJ',
-        desc:'코미디',
+        desc:'#코미디',
         img1: '코미디/movie_코미디_1.jpg',
         img2: '코미디/movie_코미디_2.jpg',
         img3: '코미디/movie_코미디_3.jpg'
     },
     {
         name:'ESFP',
-        desc:'코미디 / 드라마',
+        desc:'#코미디    #드라마',
         img1: '코미디/movie_코미디_1.jpg',
         img2: '드라마/movie_드라마_1.jpg',
         img3: '코미디/movie_코미디_2.jpg'
     },
     {
         name:'ENTJ',
-        desc:'독립영화 / SF판타지',
+        desc:'#독립영화    #SF/판타지',
         img1: '독립영화/movie_독립영화_1.jpg',
         img2: '독립영화/movie_독립영화_2.jpg',
         img3: 'SF판타지/movie_SF판타지_1.jpg'
     },
     {
         name:'ENTP',
-        desc:'SF판타지 / 공포스릴러',
+        desc:'#SF/판타지    #공포/스릴러',
         img1: 'SF판타지/movie_SF판타지_1.jpg',
         img2: 'SF판타지/movie_SF판타지_2.jpg',
         img3: '공포스릴러/movie_공포스릴러_1.jpg'
     },
     {
         name:'ENFJ',
-        desc:'드라마',
+        desc:'#드라마',
         img1: '드라마/movie_드라마_1.jpg',
         img2: '드라마/movie_드라마_2.jpg',
         img3: '드라마/movie_드라마_3.jpg'
     },
     {
         name:'ENFP',
-        desc:'멜로 / 코미디 / 드라마',
+        desc:'#멜로    #코미디    #드라마',
         img1: '멜로/movie_멜로_1.jpg',
         img2: '코미디/movie_코미디_1.jpg',
         img3: '드라마/movie_드라마_1.jpg'

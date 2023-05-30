@@ -82,9 +82,9 @@ function calResult(){
     console.log(resultImg2);
     console.log(resultImg3);
   
-    // const resultDesc = document.querySelector('.resultDesc');
-    // resultDesc.innerHTML = infoList[point].desc;
-    // console.log(resultDesc);
+    const resultDesc = document.querySelector('.resultDesc');
+    resultDesc.innerHTML = infoList[point].desc;
+    console.log(resultDesc);
   }
 
 function goResult(){
