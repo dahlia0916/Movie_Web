@@ -5,7 +5,7 @@ from selenium import webdriver
 from bs4 import BeautifulSoup
 
 # webdriver를 이용해 Chrome 브라우저 열기
-driver = webdriver.Chrome('chromedriver.exe') # ChromeDriver 경로 설정
+driver = webdriver.Chrome("C:\\Users\\82102\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe") # ChromeDriver 경로 설정
 
 # 페이지 이동
 url = "https://serieson.naver.com/v3/movie"
